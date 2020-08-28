@@ -1,0 +1,183 @@
+body{
+    background-image:url(images/coverimage.png);
+    background-size: cover;
+    position: relative;
+    
+}
+
+/* nav bar*/
+.navbar{
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.1);
+    color: whitesmoke;
+    text-shadow: 0 0 8px rgb(197, 160, 91);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    list-style: none;
+    width: 30%;
+}
+.navbar ul a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+/*Footer */
+footer{
+    margin-top: 50px;
+    width: 100%;
+    color: whitesmoke;
+    text-shadow: 0 0 8px rgb(197, 160, 91);
+    font-weight: bold;
+    display:flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+footer .social-media{
+    margin: 0 20px;
+}
+footer .fab{
+    padding: 10px;
+}
+footer .social-media-buttons{
+    list-style: none;
+    display: flex;
+}
+
+
+/*styling for homepage */
+.headline-container{
+    margin-top: -50px;
+    height: 400px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.headline-container .restaurant-name{
+    color: whitesmoke;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-shadow: 0 0 8px rgb(197, 160, 91);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
+    font-size: 2rem;
+    width: 60%;
+
+}
+
+.description-container{
+    display:flex;
+    justify-content: center;
+    margin-top: -50px;
+
+}
+
+
+.description-container .description{
+    color: whitesmoke;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-shadow: 0 0 8px rgb(197, 160, 91);
+    font-size: 2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.description-container .description button{
+     padding:0.3em 1.2em;
+     margin:0 0.3em 0.3em 0;
+     border-radius:2em;
+     box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.description button:hover{
+    background-color:#4095c6;
+
+}
+
+/* menu */
+.menu-title{
+    color: purple;
+    font-size: 3rem;
+    text-align:center;
+
+}
+.menu{
+    color: black;
+    display:flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.appetizers,.entrees,.dessert{
+    flex:1;
+}
+
+.menu h2{
+    text-align:center;
+    color: purple;
+}
+.menu h5{
+    font-size: 1.2rem;
+}
+
+.menu-item{
+    border-bottom: 1px solid black;
+}
+
+/* contact page */
+.contact-title{ 
+    text-align:center;
+    color:whitesmoke;
+}
+
+.contact-container{
+    margin: 0 auto;
+    display:flex;
+    width: 50%;
+    color: whitesmoke;
+    justify-content: center;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-shadow: 0 0 8px rgb(197, 160, 91);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
+}
+.contact-container .contact-address{
+    flex:1;
+}
+.contact-container ul{
+    display: flex;
+    flex-direction: column;
+
+}
+.contact-container li{
+    margin-top: 20px;
+    list-style: none;
+    
+}
+.contact-container a{
+    text-decoration: none;
+    color: grey;
+}
